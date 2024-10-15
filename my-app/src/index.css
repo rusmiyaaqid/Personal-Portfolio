@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: rgb(53, 58, 67);
+}
+.navBar{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 40);
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+.navBar>p1{
+  color:white;
+  margin-top:25px;
+  margin-right: 20px;
+
+}
+.group{
+  display: flex;
+  justify-content: left;
+}
+.group >h1{
+  color:rgb(0, 213, 255)
+  
+}
+.react_logo{
+  width: 40px;
+}
+.body1{
+  padding: 57px;
+  background-image: url(/public/logo512.png);
+  background-repeat: no-repeat;
+  background-position: 435px 26%;
+  background-size: 3rem;
+
+}
+
+.body1>h1{
+  margin-left:40px;
+  color:white;
+
+  
+}
+.list{
+  color:white;
+  margin-left: 20px;
+  letter-spacing: .05rem;
+  padding-block:10px;
+  line-height: 30px;
+  max-width: 400px;
+ }
+ .list>li::marker{
+  color: rgb(0, 213, 255);
+  font-size: 1.6rem;
+ }
+
+
+.card{
+  margin-left: 20px;
+  color:white;
+  width:20%;
+}
+
+ .card--image{
+  width:100%;
+  border-radius:9px;
+  
+ }
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: bold;
+}
