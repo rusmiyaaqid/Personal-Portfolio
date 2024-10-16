@@ -1,6 +1,5 @@
 // Import necessary packages in React
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import jsonData from "./projects.json"; // Adjust the path as necessary
 import './App.css'; 
 

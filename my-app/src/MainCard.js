@@ -1,7 +1,6 @@
 
   // Import necessary packages in React
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import image from './rusmiya_lobby.jpg';
 import github from './githubicon.png';
 import email from './emailicon.png';
